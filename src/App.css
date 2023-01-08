@@ -62,7 +62,7 @@ header .themes {
 	gap: 2rem;
 }
 header .themes p {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	letter-spacing: 2px;
 	margin-bottom: 8px;
 }
@@ -115,7 +115,7 @@ button {
 	color: var(--text-blue);
 	background-color: var(--text-white);
 	border-radius: 8px;
-	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
+	box-shadow: 0.1px 4px 1px hsl(0, 0%, 60%);
 }
 .reset {
 	grid-column: 1/3;
