@@ -48,6 +48,43 @@ button:not(.reset, .del) {
 	max-width: min(100%, 500px);
 	/* grid-template-rows: header, auto, footer; */
 }
+/* header */
+header {
+	color: var(--text-white);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 1.5rem;
+}
+header .themes {
+	display: flex;
+	align-items: flex-end;
+	gap: 2rem;
+}
+header .themes p {
+	font-size: 0.9rem;
+	letter-spacing: 2px;
+	margin-bottom: 8px;
+}
+header .themes span {
+	margin-inline: 10px;
+}
+header .themes .control-box {
+	background-color: var(--secondary-blue);
+	height: 30px;
+	width: 100%;
+	border-radius: 15px;
+	margin-top: 8px;
+	padding: 6px;
+	display: flex;
+	justify-content: flex-start;
+}
+header .themes .control-ball {
+	background-color: var(--key-red);
+	width: 29%;
+	height: 100%;
+	border-radius: 50%;
+}
 .display {
 	height: 13vh;
 	background-color: var(--primary-blue);
