@@ -45,7 +45,7 @@ button:not(.reset, .del) {
 	padding: 1.5rem;
 	display: grid;
 	margin-inline: auto;
-	max-width: min(100%, 500px);
+	max-width: min(100%, 530px);
 	/* grid-template-rows: header, auto, footer; */
 }
 /* header */
@@ -104,7 +104,7 @@ header .themes .control-ball {
 	border-radius: 7px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(5, 50px);
+	grid-template-rows: repeat(5, 60px);
 	grid-auto-flow: row;
 	gap: 1.2rem;
 }
@@ -123,12 +123,14 @@ button {
 	text-transform: uppercase;
 	font-size: 20px;
 	background-color: var(--key-blue);
+	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
 	color: var(--text-white);
 }
 .del {
 	text-transform: uppercase;
 	font-size: 20px;
 	background-color: var(--key-blue);
+	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
 	color: var(--text-white);
 }
 .equals {
@@ -140,10 +142,11 @@ button {
 }
 
 .attribution {
-	font-size: 11px;
+	font-size: 1rem;
 	text-align: center;
 	margin-top: auto;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+	color: var(--text-white);
 }
