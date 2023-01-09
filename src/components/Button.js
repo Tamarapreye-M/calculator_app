@@ -15,11 +15,12 @@ const Button = (prop) => {
 
 		value === "=" &&
 			setCalculated((prev) => {
-				let valNow = prev.split(" ");
+				let valNow = `${prev}`.split(" ");
 				let cleanUp = valNow
 					.map((each) => (isNaN(+each) ? each : `${+each}`))
 					.join("");
-				return eval(cleanUp);
+				console.log(eval(cleanUp), typeof eval(cleanUp));
+				return cleanUp && cleanUp !== "0" ? eval(cleanUp) : prev;
 			});
 	};
 	return (
