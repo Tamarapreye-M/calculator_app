@@ -1,8 +1,7 @@
-import { type } from "@testing-library/user-event/dist/type";
 import React from "react";
 
 const Button = (prop) => {
-	const { setCalculated, calculated, name, content } = prop;
+	const { setCalculated, name, content } = prop;
 	const handleDisplay = (ev) => {
 		let { value } = ev.target;
 
@@ -19,7 +18,7 @@ const Button = (prop) => {
 				let cleanUp = valNow
 					.map((each) => (isNaN(+each) ? each : `${+each}`))
 					.join("");
-				console.log(eval(cleanUp), typeof eval(cleanUp));
+				// eslint-disable-next-line
 				return cleanUp && cleanUp !== "0" ? eval(cleanUp) : prev;
 			});
 	};
