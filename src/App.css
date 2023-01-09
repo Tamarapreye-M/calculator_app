@@ -42,7 +42,7 @@ button:not(.reset, .del) {
 
 #root {
 	height: 100vh;
-	padding: 1.5rem;
+	padding: 0rem 1.5rem;
 	display: grid;
 	margin-inline: auto;
 	max-width: min(100%, 530px);
@@ -143,14 +143,14 @@ main button {
 }
 
 .attribution {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	text-align: center;
 	margin-top: auto;
 }
 .attribution button {
 	color: hsl(228, 45%, 44%);
 	color: var(--text-white);
-	font-size: 1rem;
+	font-size: 0.8rem;
 	cursor: pointer;
 	border: none;
 	background: transparent;
