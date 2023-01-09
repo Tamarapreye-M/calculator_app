@@ -28,6 +28,7 @@ html {
 	font-size: 15px;
 }
 body {
+	min-height: 100vh;
 	background: var(--main-blue);
 }
 
@@ -41,9 +42,11 @@ button:not(.reset, .del) {
 }
 
 #root {
-	height: 100vh;
-	padding: 0rem 1.5rem;
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 1.5rem;
+
 	margin-inline: auto;
 	max-width: min(100%, 530px);
 	/* grid-template-rows: header, auto, footer; */
@@ -86,7 +89,7 @@ header .themes .control-ball {
 	border-radius: 50%;
 }
 .display {
-	height: 13vh;
+	height: 12vh;
 	background-color: var(--primary-blue);
 	color: var(--text-white);
 	margin-bottom: 1rem;
