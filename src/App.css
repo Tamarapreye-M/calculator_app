@@ -11,6 +11,17 @@
 	--key-1-orange-shadow: hsl(28, 16%, 65%);
 	--text-1-blue: hsl(221, 14%, 31%);
 	--text-1-white: hsl(0, 0%, 100%);
+	--main-2-grey: hsl(0, 0%, 90%);
+	--primary-2-greyish-red: hsl(0, 5%, 81%);
+	--secondary-2-grey: hsl(0, 0%, 93%);
+	--key-2-cyan: hsl(185, 42%, 37%);
+	--key-2-cyan-shadow: hsl(185, 58%, 25%);
+	--key-2-orange: hsl(25, 98%, 40%);
+	--key-2-orange-shadow: hsl(25, 99%, 27%);
+	--key-2-yellow: hsl(45, 7%, 89%);
+	--key-2-yellow-shadow: hsl(35, 11%, 61%);
+	--text-2-yellow: hsl(60, 10%, 19%);
+
 	--numbers-size: 32px;
 }
 
