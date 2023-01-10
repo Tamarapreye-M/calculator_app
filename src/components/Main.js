@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
 
-const propTypes = [
+const propsArr = [
 	{ name: "seven", content: "7" },
 	{ name: "eight", content: "8" },
 	{ name: "nine", content: "9" },
@@ -24,7 +24,7 @@ const propTypes = [
 
 const Main = (prop) => {
 	const [calculated, setCalculated] = useState("");
-	const contentProp = propTypes.map((each) => (
+	const contentProp = propsArr.map((each) => (
 		<Button
 			key={each.name}
 			{...each}
