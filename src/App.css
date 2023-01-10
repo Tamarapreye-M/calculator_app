@@ -115,9 +115,9 @@ main button {
 	display: block;
 	border: none;
 	color: var(--text-blue);
-	background-color: var(--text-white);
+	background-color: var(--key-orange);
 	border-radius: 8px;
-	box-shadow: 0.1px 4px 1px hsl(0, 0%, 60%);
+	box-shadow: 0.1px 4px 1px var(--key-orange-shadow);
 	cursor: pointer;
 }
 main .reset {
