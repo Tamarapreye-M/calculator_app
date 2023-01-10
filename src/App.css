@@ -37,7 +37,7 @@ button {
 	font: inherit;
 }
 
-button:not(.reset, .del) {
+main button:not(.reset, .del) {
 	font-size: 32px;
 }
 
@@ -49,7 +49,6 @@ button:not(.reset, .del) {
 
 	margin-inline: auto;
 	max-width: min(100%, 530px);
-	/* grid-template-rows: header, auto, footer; */
 }
 /* header */
 header {
@@ -88,7 +87,7 @@ header .themes .control-ball {
 	height: 100%;
 	border-radius: 50%;
 }
-.display {
+main .display {
 	height: 12vh;
 	background-color: var(--primary-blue);
 	color: var(--text-white);
@@ -101,7 +100,7 @@ header .themes .control-ball {
 	font-size: 35px;
 }
 
-.row {
+main .row {
 	background-color: var(--secondary-blue);
 	padding: 1.8rem;
 	border-radius: 7px;
@@ -121,7 +120,7 @@ main button {
 	box-shadow: 0.1px 4px 1px hsl(0, 0%, 60%);
 	cursor: pointer;
 }
-.reset {
+main .reset {
 	grid-column: 1/3;
 	grid-row: 5;
 	text-transform: uppercase;
@@ -130,14 +129,14 @@ main button {
 	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
 	color: var(--text-white);
 }
-.del {
+main .del {
 	text-transform: uppercase;
 	font-size: 20px;
 	background-color: var(--key-blue);
 	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
 	color: var(--text-white);
 }
-.equals {
+main .equals {
 	grid-column: 3/5;
 	grid-row: 5;
 	color: var(--text-white);
@@ -145,12 +144,12 @@ main button {
 	box-shadow: 0.1px 4px 1px var(--key-red-shadow);
 }
 
-.attribution {
+footer .attribution {
 	font-size: 0.8rem;
 	text-align: center;
 	margin-top: auto;
 }
-.attribution button {
+footer .attribution button {
 	color: hsl(228, 45%, 44%);
 	color: var(--text-white);
 	font-size: 0.8rem;
