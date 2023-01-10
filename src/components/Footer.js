@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer className="attribution">
 			Challenge by
-			<button>Frontend Mentor</button>. Coded by{" "}
+			<span>Frontend Mentor</span>. Coded by{" "}
 			<button>Tamarapreye Michael</button>.
 		</footer>
 	);
