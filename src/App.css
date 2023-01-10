@@ -10,18 +10,30 @@
 	--key-1-orange: hsl(30, 25%, 89%);
 	--key-1-orange-shadow: hsl(28, 16%, 65%);
 	--text-1-blue: hsl(221, 14%, 31%);
-	--text-1-white: hsl(0, 0%, 100%);
+
 	--main-2-grey: hsl(0, 0%, 90%);
 	--primary-2-greyish-red: hsl(0, 5%, 81%);
 	--secondary-2-grey: hsl(0, 0%, 93%);
-	--key-2-cyan: hsl(185, 42%, 37%);
-	--key-2-cyan-shadow: hsl(185, 58%, 25%);
+	--key-2-dark-cyan: hsl(185, 42%, 37%);
+	--key-2-dark-cyan-shadow: hsl(185, 58%, 25%);
 	--key-2-orange: hsl(25, 98%, 40%);
 	--key-2-orange-shadow: hsl(25, 99%, 27%);
 	--key-2-yellow: hsl(45, 7%, 89%);
 	--key-2-yellow-shadow: hsl(35, 11%, 61%);
 	--text-2-yellow: hsl(60, 10%, 19%);
 
+	--main-3-violet: hsl(268, 75%, 9%);
+	--primary-3-violet: hsl(268, 71%, 12%);
+	--key-3-violet: hsl(281, 89%, 26%);
+	--key-3-violet-shadow: hsl(285, 91%, 52%);
+	--key-3-cyan: hsl(176, 100%, 44%);
+	--key-3-cyan-shadow: hsl(177, 92%, 70%);
+	--key-3-dark-violet: hsl(268, 47%, 21%);
+	--key-3-dark-violet-shadow: hsl(290, 70%, 36%);
+	--text-3-light-yellow: hsl(52, 100%, 62%);
+	--text-3-dark-blue: hsl(198, 20%, 13%);
+
+	--text-white: hsl(0, 0%, 100%);
 	--numbers-size: 32px;
 }
 
@@ -63,7 +75,7 @@ main button:not(.reset, .del) {
 }
 /* header */
 header {
-	color: var(--text-1-white);
+	color: var(--text-white);
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -101,7 +113,7 @@ header .themes .control-ball {
 main .display {
 	height: 12vh;
 	background-color: var(--primary-1-blue);
-	color: var(--text-1-white);
+	color: var(--text-white);
 	margin-bottom: 1rem;
 	display: grid;
 	align-content: center;
@@ -138,19 +150,19 @@ main .reset {
 	font-size: 20px;
 	background-color: var(--key-1-blue);
 	box-shadow: 0.1px 4px 1px var(--key-1-blue-shadow);
-	color: var(--text-1-white);
+	color: var(--text-white);
 }
 main .del {
 	text-transform: uppercase;
 	font-size: 20px;
 	background-color: var(--key-1-blue);
 	box-shadow: 0.1px 4px 1px var(--key-1-blue-shadow);
-	color: var(--text-1-white);
+	color: var(--text-white);
 }
 main .equals {
 	grid-column: 3/5;
 	grid-row: 5;
-	color: var(--text-1-white);
+	color: var(--text-white);
 	background-color: var(--key-1-red);
 	box-shadow: 0.1px 4px 1px var(--key-1-red-shadow);
 }
@@ -162,7 +174,7 @@ footer .attribution {
 }
 footer .attribution button {
 	color: hsl(228, 45%, 44%);
-	color: var(--text-1-white);
+	color: var(--text-white);
 	font-size: 0.8rem;
 	cursor: pointer;
 	border: none;
