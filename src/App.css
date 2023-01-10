@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
 :root {
-	--main-blue: hsl(222, 26%, 31%);
-	--primary-blue: hsl(224, 36%, 15%);
-	--secondary-blue: hsl(223, 31%, 20%);
-	--key-blue: hsl(225, 21%, 49%);
-	--key-blue-shadow: hsl(224, 28%, 35%);
-	--key-red: hsl(6, 63%, 50%);
-	--key-red-shadow: hsl(6, 70%, 34%);
-	--key-orange: hsl(30, 25%, 89%);
-	--key-orange-shadow: hsl(28, 16%, 65%);
-	--text-blue: hsl(221, 14%, 31%);
-	--text-white: hsl(0, 0%, 100%);
+	--main-1-blue: hsl(222, 26%, 31%);
+	--primary-1-blue: hsl(224, 36%, 15%);
+	--secondary-1-blue: hsl(223, 31%, 20%);
+	--key-1-blue: hsl(225, 21%, 49%);
+	--key-1-blue-shadow: hsl(224, 28%, 35%);
+	--key-1-red: hsl(6, 63%, 50%);
+	--key-1-red-shadow: hsl(6, 70%, 34%);
+	--key-1-orange: hsl(30, 25%, 89%);
+	--key-1-orange-shadow: hsl(28, 16%, 65%);
+	--text-1-blue: hsl(221, 14%, 31%);
+	--text-1-white: hsl(0, 0%, 100%);
 	--numbers-size: 32px;
 }
 
@@ -29,7 +29,7 @@ html {
 }
 body {
 	min-height: 100vh;
-	background: var(--main-blue);
+	background: var(--main-1-blue);
 }
 
 input,
@@ -52,7 +52,7 @@ main button:not(.reset, .del) {
 }
 /* header */
 header {
-	color: var(--text-white);
+	color: var(--text-1-white);
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -72,7 +72,7 @@ header .themes span {
 	margin-inline: 10px;
 }
 header .themes .control-box {
-	background-color: var(--secondary-blue);
+	background-color: var(--secondary-1-blue);
 	height: 30px;
 	width: 100%;
 	border-radius: 15px;
@@ -82,15 +82,15 @@ header .themes .control-box {
 	justify-content: flex-start;
 }
 header .themes .control-ball {
-	background-color: var(--key-red);
+	background-color: var(--key-1-red);
 	width: 29%;
 	height: 100%;
 	border-radius: 50%;
 }
 main .display {
 	height: 12vh;
-	background-color: var(--primary-blue);
-	color: var(--text-white);
+	background-color: var(--primary-1-blue);
+	color: var(--text-1-white);
 	margin-bottom: 1rem;
 	display: grid;
 	align-content: center;
@@ -101,7 +101,7 @@ main .display {
 }
 
 main .row {
-	background-color: var(--secondary-blue);
+	background-color: var(--secondary-1-blue);
 	padding: 1.8rem;
 	border-radius: 7px;
 	display: grid;
@@ -114,10 +114,10 @@ main .row {
 main button {
 	display: block;
 	border: none;
-	color: var(--text-blue);
-	background-color: var(--key-orange);
+	color: var(--text-1-blue);
+	background-color: var(--key-1-orange);
 	border-radius: 8px;
-	box-shadow: 0.1px 4px 1px var(--key-orange-shadow);
+	box-shadow: 0.1px 4px 1px var(--key-1-orange-shadow);
 	cursor: pointer;
 }
 main .reset {
@@ -125,23 +125,23 @@ main .reset {
 	grid-row: 5;
 	text-transform: uppercase;
 	font-size: 20px;
-	background-color: var(--key-blue);
-	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
-	color: var(--text-white);
+	background-color: var(--key-1-blue);
+	box-shadow: 0.1px 4px 1px var(--key-1-blue-shadow);
+	color: var(--text-1-white);
 }
 main .del {
 	text-transform: uppercase;
 	font-size: 20px;
-	background-color: var(--key-blue);
-	box-shadow: 0.1px 4px 1px var(--key-blue-shadow);
-	color: var(--text-white);
+	background-color: var(--key-1-blue);
+	box-shadow: 0.1px 4px 1px var(--key-1-blue-shadow);
+	color: var(--text-1-white);
 }
 main .equals {
 	grid-column: 3/5;
 	grid-row: 5;
-	color: var(--text-white);
-	background-color: var(--key-red);
-	box-shadow: 0.1px 4px 1px var(--key-red-shadow);
+	color: var(--text-1-white);
+	background-color: var(--key-1-red);
+	box-shadow: 0.1px 4px 1px var(--key-1-red-shadow);
 }
 
 footer .attribution {
@@ -151,7 +151,7 @@ footer .attribution {
 }
 footer .attribution button {
 	color: hsl(228, 45%, 44%);
-	color: var(--text-white);
+	color: var(--text-1-white);
 	font-size: 0.8rem;
 	cursor: pointer;
 	border: none;
