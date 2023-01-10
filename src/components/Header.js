@@ -14,6 +14,8 @@ const Header = () => {
 					</div>
 					<div className="control-box">
 						<div className="control-ball"></div>
+						{/* <div className="control-ball"></div>
+						<div className="control-ball"></div> */}
 					</div>
 				</div>
 			</div>
