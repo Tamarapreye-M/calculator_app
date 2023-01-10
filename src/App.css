@@ -172,7 +172,7 @@ footer .attribution {
 	text-align: center;
 	margin-top: auto;
 }
-footer .attribution button {
+footer .attribution span {
 	color: hsl(228, 45%, 44%);
 	color: var(--text-white);
 	font-size: 0.8rem;
