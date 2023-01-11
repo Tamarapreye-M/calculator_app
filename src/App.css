@@ -177,7 +177,4 @@ footer .attribution span {
 	color: var(--text-white);
 	font-size: 0.8rem;
 	cursor: pointer;
-	border: none;
-	background: transparent;
-	outline: none;
 }
