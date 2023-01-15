@@ -22,7 +22,7 @@ const propsArr = [
 	{ name: "equals", content: "=" },
 ];
 
-const Main = (prop) => {
+const Main = () => {
 	const [calculated, setCalculated] = useState("");
 	const contentProp = propsArr.map((each) => (
 		<Button
