@@ -16,7 +16,7 @@ const propsArr = [
 	{ name: "minus", content: " - " },
 	{ name: "point", content: "." },
 	{ name: "zero", content: "0" },
-	{ name: "diviide", content: " / " },
+	{ name: "divide", content: " / " },
 	{ name: "mulitply", content: "x" },
 	{ name: "reset", content: "reset" },
 	{ name: "equals", content: "=" },
